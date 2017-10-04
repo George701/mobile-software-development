@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Exe1203A_chernikov_georgii</string>
+    <string name="appMsg">This is the test</string>
+    <string name="btn_push_me">PUSH ME</string>
+    <string name="btn_click_me">CLICK ME</string>
+    <string name="btn_exit">EXIT</string>
+</resources>

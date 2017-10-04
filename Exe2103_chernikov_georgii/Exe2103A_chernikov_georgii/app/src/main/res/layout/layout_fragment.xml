@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/mrgnV"
+    android:paddingTop="@dimen/mrgnV"
+    android:paddingLeft="@dimen/mrgnH"
+    android:paddingRight="@dimen/mrgnH"
+    tools:context="com.example.co1401305.exe2103a_chernikov_georgii.Fragments">
+
+    <fragment
+        android:id="@+id/fragmentA"
+        class="com.example.co1401305.exe2103a_chernikov_georgii.MyFragmentA"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        tools:layout="@layout/layout_fragment_a" />
+    <fragment
+        android:id="@+id/fragmentB"
+        class="com.example.co1401305.exe2103a_chernikov_georgii.MyFragmentB"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        tools:layout="@layout/layout_fragment_b" />
+</LinearLayout>

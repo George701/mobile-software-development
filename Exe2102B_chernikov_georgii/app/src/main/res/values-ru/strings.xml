@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">ПРОГРАММА ГЕНЕРИРУЕТ ПРОСТЫЕ ЧИСЛА</string>
+    <string name="app_dscrptn">Выберете максимальное значение для простых чисел: </string>
+    <string name="app_info">Версия 0.1, последнее обновление 09.19.2017</string>
+    <string name="action_info">Информация</string>
+    <string name="action_exit">Выход</string>
+    <string name="app_name">Простые числа</string>
+</resources>

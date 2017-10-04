@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Simple Fragments</string>
+    <string name="label_exit">Exit</string>
+
+    <string name="msg_fragment_1">First fragment</string>
+    <string name="msg_fragment_2">Second fragment</string>
+
+    <string name="btn_push_me">PUSH ME</string>
+    <string name="btn_click_me">CLICK ME</string>
+    <string name="btn_exit">EXIT</string>
+</resources>

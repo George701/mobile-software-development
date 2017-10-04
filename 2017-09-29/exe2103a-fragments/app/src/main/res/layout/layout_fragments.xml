@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/mrgnV"
+    android:paddingRight="@dimen/mrgnH"
+    android:paddingBottom="@dimen/mrgnV"
+    android:paddingLeft="@dimen/mrgnH"
+    tools:context="com.example.szegr.fragments1.Fragments">
+
+    <fragment
+        android:id="@+id/fragmentA"
+        class="com.example.szegr.fragments1.MyFragmentA"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/space"
+        tools:layout="@layout/layout_fragment_a" />
+
+    <fragment
+        android:id="@+id/fragmentB"
+        class="com.example.szegr.fragments1.MyFragmentB"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/space"
+        tools:layout="@layout/layout_fragment_b" />
+
+</LinearLayout>

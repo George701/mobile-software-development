@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Fragments 1</string>
+    <string name="lblExit">Exit</string>
+
+    <string name="msge_fragment_a">Greetings from Fragment A</string>
+    <string name="msge_fragment_b">Greetings from Fragment B</string>
+
+</resources>

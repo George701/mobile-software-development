@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_title">PROGRAM GENERATES PRIME NUMBERS</string>
+    <string name="app_dscrptn">Define the maximum value of a prime number: </string>
+    <string name="action_info">Information</string>
+    <string name="app_info">Version 0.1, last update 9/19/2017.</string>
+    <string name="action_exit">Exit</string>
+    <string name="app_name">Prime Numbers</string>
+</resources>

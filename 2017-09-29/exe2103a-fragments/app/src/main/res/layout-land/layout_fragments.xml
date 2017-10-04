@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/mrgnH"
+    android:paddingBottom="@dimen/mrgnH"
+    android:paddingLeft="@dimen/mrgnV"
+    android:paddingRight="@dimen/mrgnV">
+
+    <fragment
+        android:id="@+id/fragmentA"
+        class="com.example.szegr.fragments1.MyFragmentA"
+        android:layout_marginRight="@dimen/space"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentB"
+        class="com.example.szegr.fragments1.MyFragmentB"
+        android:layout_marginRight="@dimen/space"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+    </fragment>
+
+</LinearLayout>
